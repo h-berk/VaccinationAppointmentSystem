@@ -1,0 +1,14 @@
+<object-stream>
+  <hasanberk.vaccinationappointmentsystem.DataStructure.MyLinkedList>
+    <head>
+      <element class="hasanberk.vaccinationappointmentsystem.ADT.Centre">
+        <name>Wexford</name>
+        <address>Main Road</address>
+        <eirCode>Y35A1XX</eirCode>
+        <noOfParkingSpots>50</noOfParkingSpots>
+        <booths/>
+      </element>
+    </head>
+  </hasanberk.vaccinationappointmentsystem.DataStructure.MyLinkedList>
+  <hasanberk.vaccinationappointmentsystem.DataStructure.MyLinkedList/>
+</object-stream>

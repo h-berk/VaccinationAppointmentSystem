@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hasanberk.vaccinationappointmentsystem.Controllers.PatientTabController">
+   <children>
+      <ListView fx:id="listView" prefHeight="750.0" prefWidth="838.0" />
+      <DatePicker fx:id="dobDatePicker" layoutX="842.0" layoutY="185.0" prefHeight="25.0" prefWidth="150.0" promptText="D.O.B" />
+      <TextField fx:id="ppsTextField" layoutX="841.0" layoutY="27.0" promptText="PPS Number" />
+      <TextField fx:id="eirCodeTextField" layoutX="842.0" layoutY="91.0" promptText="EirCode" />
+      <Button layoutX="841.0" layoutY="255.0" mnemonicParsing="false" onAction="#addPatientClicked" prefHeight="25.0" prefWidth="122.0" text="Add Patient" />
+      <TextField fx:id="nameTextField" layoutX="842.0" layoutY="59.0" promptText="Patient Name" />
+      <TextField fx:id="telephoneTextField" layoutX="842.0" layoutY="122.0" promptText="Telephone Number" />
+      <TextField fx:id="emailTextField" layoutX="841.0" layoutY="154.0" promptText="Email Address" />
+      <CheckBox fx:id="accessibilityCheckBox" layoutX="842.0" layoutY="216.0" mnemonicParsing="false" text="Wheelchair Accessibility" />
+      <Button layoutX="841.0" layoutY="286.0" mnemonicParsing="false" onAction="#deletePatientClicked" prefHeight="25.0" prefWidth="122.0" text="Delete Patient" />
+   </children>
+</AnchorPane>

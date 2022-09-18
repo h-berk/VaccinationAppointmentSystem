@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hasanberk.vaccinationappointmentsystem.Controllers.VaccinationRecordTabController">
+   <children>
+      <ListView fx:id="listView" prefHeight="750.0" prefWidth="1074.0" />
+      <ListView prefHeight="750.0" prefWidth="813.0" />
+      <ComboBox fx:id="patientComboBox" layoutX="827.0" layoutY="112.0" onAction="#getSelectedPatient" prefWidth="150.0" />
+      <Text layoutX="827.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select a patient below to view their vaccination record" wrappingWidth="173.0" />
+   </children>
+</AnchorPane>

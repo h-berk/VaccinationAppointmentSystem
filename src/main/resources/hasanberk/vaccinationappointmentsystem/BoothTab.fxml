@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hasanberk.vaccinationappointmentsystem.Controllers.BoothTabController">
+   <children>
+      <Button layoutX="825.0" layoutY="123.0" mnemonicParsing="false" onAction="#addBoothClicked" prefWidth="89.0" text="Add Booth" translateY="30.0" />
+      <ListView fx:id="listView" prefHeight="750.0" prefWidth="800.0" />
+      <TextField fx:id="boothIdentifierTextField" layoutX="825.0" layoutY="25.0" promptText="Booth Identifier" translateY="30.0" />
+      <Spinner fx:id="floorLevelSpinner" editable="true" layoutX="825.0" layoutY="67.0" translateY="30.0" />
+      <Label layoutX="825.0" layoutY="50.0" text="Floor Level" translateY="30.0" />
+      <Button layoutX="825.0" layoutY="154.0" mnemonicParsing="false" onAction="#deleteBoothClicked" text="Delete Booth" translateY="30.0" />
+      <CheckBox fx:id="accessibilityCheckBox" layoutX="825.0" layoutY="99.0" mnemonicParsing="false" text="Wheelchair Accessibility" translateY="30.0" />
+      <ComboBox fx:id="centreComboBox" layoutX="825.0" layoutY="23.0" onAction="#updateListView" prefWidth="150.0" />
+   </children>
+</AnchorPane>
